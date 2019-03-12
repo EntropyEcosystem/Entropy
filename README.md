@@ -1,5 +1,6 @@
 # Entropy
 An innovative energy-aware IT ecosystem for motivating behavioural changes towards the adoption of energy efficient lifestyles.
+
 The ENTROPY platform is one of the main outcomes of the ENTROPY H2020 project (https://entropy-project.eu/). This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 649849.
 
 ### Prerequisites:
