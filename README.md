@@ -2,7 +2,7 @@
 An innovative energy-aware IT ecosystem for motivating behavioural changes towards the adoption of energy efficient lifestyles
 ### Prerequisites:
 1. Docker (https://docs.docker.com/install/linux/docker-ce/ubuntu/)   
-Tip: after installing docker check that your user has permission to run docker commands. To do so add your user to docker group and reboot the virtual machine.
+Tip: upon installing docker, check that your user has permission to run docker commands. To do so, add your user to the docker group and reboot the virtual machine.
 ```
 sudo groupadd docker
 sudo usermod -aG docker your_username
@@ -13,9 +13,9 @@ Check your docker compose installation:
 ```
 docker-compose --version
 ```
-Current installation guide has been created with version ```docker-compose version 1.23.2, build 1110ad01```
+The current installation guide has been created with version ```docker-compose version 1.23.2, build 1110ad01```
 ### Installation:
-1. Create a folder and place into the following docker-compose.yml file:
+1. Create a folder and place into it the following docker-compose.yml file:
 ```
 mkdir entropyproject
 cd entropyproject
@@ -58,19 +58,19 @@ services:
     container_name: entropy-recommendation-engine
     restart: always
 ```
-2. Execute the dockef-compose file
+2. Execute the docker-compose file
 ```
 docker-compose up -d
 ```
 
-3. Entropy platform is READY!!! See how easy it is??? Go to http://localhost:8080 to see it!
+3. The Entropy platform is READY!!! Go to http://localhost:8080 to see it!
 ![](https://github.com/EntropyEcosystem/Entropy/blob/master/images/entropyFirstPage.png)
 
-4. Next step includes creating an account with admin permisions. For that press the 'Select Account option' and create a new account
+4. The next step is to create an account with admin permisions. You have just to press the 'Select Account option' and create a new account
 ![](https://github.com/EntropyEcosystem/Entropy/blob/master/images/createaccount1.png)
 ![](https://github.com/EntropyEcosystem/Entropy/blob/master/images/createaccount2.png)
 
-5. You are very close! Last step is to log into the mongo container and give admin permisions to the user you just created. (Don't worry this only happens the first time :-))
+5. You are very close! The last step is to log into the mongo container and give admin permisions to the user you have just created. (Don't worry this only happens the first time :-))
 ```
 docker exec -it mongo bash
 >mongo
@@ -82,10 +82,10 @@ docker exec -it mongo bash
 
 ```
 
-6. Ready to get into the Entropy platform and start registering your areas, sensors etc.
+6. You are now ready to get into the Entropy platform and start registering your areas, sensors etc.
 For more info about how to use the Entropy platform please visit our Handbook : https://entropy-platform-handbook.readthedocs.io/en/latest/
 
-If you are developer interested in using the ENTROPY APIs so as to build your application, service or mobile app upon the ENTROPY platform, you will found our wiki page extremely useful:  https://github.com/EntropyEcosystem/Entropy/wiki
+If you are developer interested in using the ENTROPY APIs so as to build your application, service or mobile app upon the ENTROPY platform, you will find our wiki page extremely useful:  https://github.com/EntropyEcosystem/Entropy/wiki
 ### Repository Maintainers
 
 The following persons are responsible for this repository and have admin rights. They can, for example, merge pull requests.
