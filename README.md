@@ -88,7 +88,7 @@ For more info about how to use the Entropy platform please visit our Handbook : 
 If you are developer interested in using the ENTROPY APIs so as to build your application, service or mobile app upon the ENTROPY platform, you will found our wiki page extremely useful:  https://github.com/EntropyEcosystem/Entropy/wiki
 ### Repository Maintainers
 
-The following lead developers are responsible for this repository and have admin rights. They can, for example, merge pull requests.
+The following developers are responsible for this repository and have admin rights. They can, for example, merge pull requests.
 
 - Eleni Fotopoulou ([@efotopoulou](https://github.com/efotopoulou))
 - Anastasios Zafeiropoulos ([@azafeiropoulos](https://github.com/azafeiropoulos))
