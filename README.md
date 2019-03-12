@@ -1,14 +1,14 @@
 # Entropy
 An innovative energy-aware IT ecosystem for motivating behavioural changes towards the adoption of energy efficient lifestyles
 ### Prerequisites:
-1. Docker (https://docs.docker.com/install/linux/docker-ce/ubuntu/) 
+1. Docker (https://docs.docker.com/install/linux/docker-ce/ubuntu/)   
 Tip: after installing docker check that your user has permission to run docker commands. To do so add your user to docker group and reboot the virtual machine.
 ```
 sudo groupadd docker
 sudo usermod -aG docker your_username
 sudo reboot now
 ```
-2. Docker Compose (https://docs.docker.com/compose/install/)
+2. Docker Compose (https://docs.docker.com/compose/install/)  
 Check your docker compose installation:
 ```
 docker-compose --version
