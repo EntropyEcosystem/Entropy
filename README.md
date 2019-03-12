@@ -86,7 +86,7 @@ docker exec -it mongo bash
 For more info about how to use the Entropy platform please visit our Handbook : https://entropy-platform-handbook.readthedocs.io/en/latest/
 
 If you are developer interested in using the ENTROPY APIs so as to build your application, service or mobile app upon the ENTROPY platform, you will found our wiki page extremely useful:  https://github.com/EntropyEcosystem/Entropy/wiki
-### Lead Developers
+### Repository Maintainers
 
 The following lead developers are responsible for this repository and have admin rights. They can, for example, merge pull requests.
 
