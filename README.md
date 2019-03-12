@@ -1,5 +1,7 @@
 # Entropy
-An innovative energy-aware IT ecosystem for motivating behavioural changes towards the adoption of energy efficient lifestyles
+An innovative energy-aware IT ecosystem for motivating behavioural changes towards the adoption of energy efficient lifestyles.
+The ENTROPY platform is one of the main outcomes of the ENTROPY H2020 project (https://entropy-project.eu/). This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 649849.
+
 ### Prerequisites:
 1. Docker (https://docs.docker.com/install/linux/docker-ce/ubuntu/)   
 Tip: upon installing docker, check that your user has permission to run docker commands. To do so, add your user to the docker group and reboot the virtual machine.
