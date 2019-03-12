@@ -96,3 +96,8 @@ The following lead developers are responsible for this repository and have admin
 ### Feedback-Chanel
 
 * Please use the GitHub issues to report bugs.
+
+### Cite this Work
+If you use this tool for your research, publications, or Smart building/IoT projects, please consider to cite the following paper:
+
+Fotopoulou E, Zafeiropoulos A, Terroso-Sáenz F, Şimşek U, González-Vidal A, Tsiolis G, Gouvas P, Liapis P, Fensel A, Skarmeta A. Providing Personalized Energy Management and Awareness Services for Energy Efficiency in Smart Buildings. Sensors. 2017; 17(9):2054.  doi:10.3390/s17092054 
