@@ -64,3 +64,25 @@ docker-compose up -d
 ```
 
 3. Entropy platform is READY!!! See how easy it is??? Go to http://localhost:8080 to see it!
+![](https://github.com/EntropyEcosystem/Entropy/blob/master/images/entropyFirstPage.png)
+
+4. Next step includes creating an account with admin permisions. For that press the 'Select Account option' and create a new account
+![](https://github.com/EntropyEcosystem/Entropy/blob/master/images/createaccount1.png)
+![](https://github.com/EntropyEcosystem/Entropy/blob/master/images/createaccount2.png)
+
+5. You are very close! Last step is to log into the mongo container and give admin permisions to the user you just created. (Don't worry this only happens the first time :-))
+```
+docker exec -it mongo bash
+>mongo
+>use entropy
+>db.User.updateOne(
+      { "username" : "your_username" },
+      { $set: { "isenabled" : true,"isapproved" : true,"userrole" : "ROLE_ADMIN" } }
+   );
+
+```
+
+6. Ready to get into the Entropy platform and start registering your areas, sensors etc.
+For more info about how to use the Entropy platform please visit our Handbook : https://entropy-platform-handbook.readthedocs.io/en/latest/
+
+If you are developer interested in using the ENTROPY APIs so as to build your application, service or mobile up upont the ENTROPY platform, you will found our wiki page extremely useful:  https://github.com/EntropyEcosystem/Entropy/wiki/Entropy-in-a-Glimpse
