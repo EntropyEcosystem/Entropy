@@ -2,7 +2,13 @@
 An innovative energy-aware IT ecosystem for motivating behavioural changes towards the adoption of energy efficient lifestyles
 ### Prerequisites:
 1. Docker (https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-2. Docker Compose (https://docs.docker.com/compose/install/
+2. Docker Compose (https://docs.docker.com/compose/install/)  
+Check your docker compose installation:
+```
+docker-compose --version
+```
+Current installation guide has been created with version ```docker-compose version 1.23.2, build 1110ad01```
+
 Tip: after installing docker check that your user has permission to run docker commands. To do so add your user to docker group and reboot the virtual machine.
 ```
 sudo groupadd docker
